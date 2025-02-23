@@ -76,6 +76,7 @@ section > div {
 
 .photo {
     text-align: center;
+    margin-top: 20px;
 }
 
 .photo img {
@@ -89,6 +90,9 @@ section > div {
 
 .prez {
     border-bottom: 2px dashed #ccc;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .prez a {
